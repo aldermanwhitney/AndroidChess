@@ -1,0 +1,42 @@
+<resources>
+    <string name="app_name">AndroidChess36</string>
+    <string name="undoText">Undo</string>
+    <string name="AItext">AI</string>
+    <string name="DrawText">Draw</string>
+    <string name="RecordText">Go to list of recorded games</string>
+    <string name="ResignText">Resign</string>
+    <string name="sortbydate">Sort by Date</string>
+    <string name="sortbytitle">Sort by Title</string>
+    <string name="title_activity_show_list">RecordList</string>
+    <string name = "title_activity">GameOver</string>
+    <string name="promotion_type">Enter promotion type</string>
+    <string name = "title_activity_list">Pick Type of Promotion</string>
+    <string name="enter_promotion_type">Enter Promotion type</string>
+    <string name="queen">Queen</string>
+    <string name="bishop">Bishop</string>
+    <string name="knight">Knight</string>
+    <string name="rook">Rook</string>
+    <string name="saved_games"> RECORDED GAMES </string>
+    <string name="game_result">Save This Game?</string>
+    <string name="save_game">Save Game</string>
+    <string name="cancel_and_play_new_game">Cancel and Play new Game</string>
+    <string name="enter_title_for_this_game">Enter Title for this game</string>
+    <string name="next_move">Next Move</string>
+    <string name="delete_selected_game">Delete selected game</string>
+    <string name="choose_pawn_promotion">CHOOSE PAWN PROMOTION</string>
+    <string name="game_playback">GAME PLAYBACK</string>
+    <string-array name="pieces">
+        <item>king</item>
+        <item>queen</item>
+        <item>rook</item>
+        <item>bishop</item>
+        <item>knight</item>
+        <item>pawn</item>
+        <item>king</item>
+        <item>queen</item>
+        <item>rook</item>
+        <item>bishop</item>
+        <item>knight</item>
+        <item>pawn</item>
+    </string-array>
+</resources>

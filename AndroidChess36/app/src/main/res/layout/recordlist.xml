@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="-2dp"
+        tools:layout_editor_absoluteY="2dp">
+
+        <TextView
+            android:id="@+id/savedgames"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:background="#523E68"
+            android:text="@string/saved_games"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            android:textSize="28sp" />
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="94dp">
+
+            <RadioButton
+                android:id="@+id/sortTitle"
+                android:layout_width="match_parent"
+                android:layout_height="46dp"
+                android:background="#523E68"
+                android:onClick="sortbyTitle"
+                android:text="@string/sortbytitle"
+                android:textColor="#FFFFFF"
+                android:textSize="18sp" />
+
+            <RadioButton
+                android:id="@+id/sortDate"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="#523E68"
+                android:onClick="sortbyDate"
+                android:text="@string/sortbydate"
+                android:textColor="#FFFFFF"
+                android:textSize="18sp" />
+
+        </RadioGroup>
+
+        <ListView
+            android:id="@+id/recordlist"
+            android:layout_width="match_parent"
+            android:layout_height="445dp"
+            android:background="#F7F6F8">
+
+        </ListView>
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>

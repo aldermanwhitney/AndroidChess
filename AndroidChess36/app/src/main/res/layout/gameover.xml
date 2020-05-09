@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="57dp"
+            android:background="#9A1616"
+            android:text="@string/game_result"
+            android:textAlignment="center"
+            android:textColor="#FFFFFF"
+            tools:textSize="30sp" />
+
+        <EditText
+            android:id="@+id/title"
+            android:layout_width="match_parent"
+            android:layout_height="90dp"
+            android:autofillHints=""
+            android:ems="10"
+            android:hint="@string/enter_title_for_this_game"
+
+            android:inputType="textPersonName"
+            android:textSize="23sp" />
+
+        <Button
+            android:id="@+id/savegame"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#77C7EF"
+            android:onClick="saveGame"
+            android:text="@string/save_game"
+            android:textSize="18sp"
+            tools:visibility="visible" />
+
+        <Button
+            android:id="@+id/cancel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#EFCD77"
+            android:onClick="cancelGame"
+            android:text="@string/cancel_and_play_new_game"
+            android:textSize="18sp" />
+
+    </LinearLayout>
+
+</androidx.constraintlayout.widget.ConstraintLayout>
