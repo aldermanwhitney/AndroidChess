@@ -18,4 +18,5 @@ AndroidChess/AndroidChess36/app/src/main/java/<br />
 **The Project**<br />
 •	Created a chess application for android organized according to the MVC (Model-View-Controller) design pattern with a partner through git collaboration<br />
 •	Implemented logic including but not limited to legal moves of each chess piece, detecting a checkmate, pawn promotion, castling and the option to implement AI for a move<br />
-•	Applied the use of abstract classes, inheritance and polymorphism•	Utilized xml and android studio IDE to create an aesthetically pleasing and user-friendly GUI
+•	Applied the use of abstract classes, inheritance and polymorphism<br />
+•	Utilized xml and android studio IDE to create an aesthetically pleasing and user-friendly GUI
