@@ -5,8 +5,8 @@ Bulk of project located in:
 AndroidChess/AndroidChess36/app/src/main/java/
 
 Features:
--Move a piece using touch input
--Undo a move
+-Move a piece using touch input\n
+-Undo a move\n
 -Resign and request/accept a Draw
 -Implement AI to make a move
 -Record Chess games and offer to store file at the end of a game
